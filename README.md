@@ -1,1 +1,0 @@
-# zametyza.github.io
