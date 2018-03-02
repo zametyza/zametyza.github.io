@@ -1,0 +1,223 @@
+div{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Gentium Book Basic', serif;
+  padding: 0;
+  margin: 0;
+}
+hr{
+  color: #fff;
+  margin-top: 13px;
+}
+.header{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  height: 770px;
+  width: auto;
+  background: url(../img/first-bg.jpg) no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.context__text{
+  &--caption{
+    font-family: 'Gentium Book Basic', serif;
+    letter-spacing: -1.2px;
+    color: #fff;
+    font-size: 56.9px;
+    margin-top: 64px;
+    margin-bottom: 4px;
+    margin-left: -2px;
+  }
+  &--title{
+    font-family:'Gentium Book Basic', serif;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: -1.4px;
+    margin: 0;
+    margin-left: -3px;
+    margin-top: -3px;
+    color: white;
+  }
+  &--written{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-top: 22px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  &--avtor{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 1px;
+    margin-left: 2.5px;
+    float: left;
+    font-size: 15px;
+  }
+  &--man{
+    float: left;
+    margin: -4px 0 0 4px;
+  }
+}
+.container__icon{
+  float: right;
+  margin: 10px;
+  margin-top: 2px;
+    &--favarite{
+    margin: -5px 12px 0 0;
+    }
+    &--like{
+    margin: -5px 12px 0 0;
+    }
+    &--repost{
+    margin: -5px -10px 0 0;
+    }
+}
+.context{
+  padding-top: 485px;
+}
+.main{
+  color: #fff;
+  &__caption{
+    font-style: italic;
+    font-family:'Gentium Book Basic', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    color: #6E6E6E;
+    display: block;
+    margin-top: 40px;
+    letter-spacing: -0.5px;
+  }
+  &__text{
+    margin-top: 50px;
+    margin-bottom: : 50px;
+    font-family:'Gentium Book Basic', serif;
+    font-size: 20px;
+    line-height: 2em;
+    letter-spacing: -1px;
+    text-align: left;
+    color: black;
+  }
+  &__list{
+    margin-top: -22px;
+  }
+}
+.container{
+   width: 622px;
+   margin-left: 20.6rem;
+   margin-right: 8rem;
+  &__top{
+    margin-left: 633px;
+    margin-bottom: -12px;
+  }
+  &__back{
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 598px;
+    font-size: 14px;
+    margin-bottom: 3.1%;
+    letter-spacing: 0.5px;
+  }
+}
+.footer{
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 15.8em;
+  background: url(../img/bg-ft.jpg)  no-repeat;
+  background-size:100% 100%;
+  &__share{
+    text-transform: uppercase;
+    margin-left: 595px;
+    color: #58FA82;
+    font-size: 13px;
+    padding-top: 106px;
+    letter-spacing: -0.4px;
+  }
+  &__repost{
+    float: left;
+    margin-left: 577px;
+    margin-top: 119px;
+    padding: 0;
+  }
+}
+.icon-block{
+  display: table;
+  width: 100%;
+  color: white;
+  &--left{
+    display: table-cell;
+    clear: both;
+    width: 50.5%;
+    height: 22.5em;
+    background: url(../img/ft_icon.jpg)  no-repeat;
+    background-size:100% 100%;
+  }
+  &--right{
+    display: table-cell;
+    clear: both;
+    width: 50%;
+    height: 22.5em;
+    background: url(../img/ft_icon2.jpg)  no-repeat;
+    background-size:100% 100%;
+  }
+  &__text{
+    padding: 51px 0 0 61px;
+  }
+  &__text--main{
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    letter-spacing: -0.4px;
+  }
+  &__text--caption{
+    font-size: 31px;
+    letter-spacing: 0.2px;
+    margin-bottom: -22px;
+  }
+}
+
+
+
+
+
+
+
+.square2 {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background:url(../img/panda.png);
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  animation-name: panda;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.square2:hover{
+  animation-play-state: paused;
+}
+.square {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background:url(../img/panda.png);
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  animation-name: panda;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.square:hover{
+  animation-play-state: paused;
+}
+@keyframes panda{
+from {
+  transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+}

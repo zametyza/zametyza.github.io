@@ -1,0 +1,25 @@
+{
+  "name": "negev",
+  "version": "1.0.0",
+  "description": "gulp",
+  "main": "s",
+  "scripts": {
+    "test": "s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zametyza/zametyza.github.io.git"
+  },
+  "keywords": [
+    "Wuewtolu007243"
+  ],
+  "author": "negev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zametyza/zametyza.github.io/issues"
+  },
+  "homepage": "https://github.com/zametyza/zametyza.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,137 @@
+.footer-logo__zametyza
+{
+    font-size:10px;
+    color:#dbdbdb;
+}
+.footer__logo
+{
+    float:right;
+    margin-top:23px;
+    margin-right:40px;
+}
+
+.footer-logo__img
+{
+    margin-right: 100px;
+}
+
+.footer-logo__zametyza
+{
+    clear: left;
+}
+.networks__header
+{
+
+    color:#fff;
+    font-size:14px;
+    width:100%;
+    border-bottom:10px solid #878787;
+
+}
+
+.networks__icon_facebook
+{
+    background-position: -40px 0;
+    padding: 10px;
+}
+.networks__icon_vk
+{
+    background-position: -140px 0;
+    padding: 10px;
+}
+.menu
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:100%;
+    display:table;
+    table-layout: fixed;
+}
+.link_menu
+{
+    text-align:center;
+    color:#bfbfbf;
+    cursor:pointer;
+    font-size:14px;
+    height:38px;
+    background-color:#f3f3f3;
+    line-height:38px;
+    border: 1px solid #e7e7e7;
+    display:table-cell;
+    text-decoration: none;
+}
+.link_menu_active
+{
+    color:#fefefe;
+    background-color:#29c5e6;
+    border:1px solid #29c5e6;
+}
+
+.link
+{
+    color:#525252;
+    font-size:12px;
+}
+.header {
+background: grey;
+ display: block;
+ height: 50px;
+}
+.header__logo
+{
+  float: left;
+}
+.logo {
+  width: 360px;
+  height: 500px;
+  position:absolute;
+  top: 0px; left: 0px;
+}
+.page
+{
+    width:100%;
+    margin:0 auto;
+    background-color:#fefefe;
+    font-family:Tahoma;
+    font-size:12px;
+    
+}
+.footer {
+  background: grey;
+}
+
+.table_tr {
+  background: grey;
+}
+.logo_img_small {
+  float: right;
+}
+.table {
+margin-left: 0px;
+text-align: center;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+background: #ECE9E0;
+border-bottom:  1px solid #fefefe;
+}
+.page__h1 {
+  font-family:  "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: purple;
+  text-align: left;
+  line-height: 0.1em;
+}
+.page__p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  text-align: left;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+
+}
+
+.page__h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: purple;
+  text-align: left;
+  line-height: 0.001em;
+
+}
